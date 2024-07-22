@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(222, 184, 135, 0.266);
+    
+}
+h1,h2{
+    text-align:center;
+}
+.care{
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    font-family:geneva ;
+    max-width: 700px;
+    
+    
+     }
+     p{
+        font-size: 15px;
+     }
+     img{
+        border-radius: 30px;
+        width:100%;
+
+     }
+     .fun p{
+        font-size:30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        animation: myscale;
+        text-align: center;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+    
+}
+
+@keyframes myscale{
+    50%{transform:scale(0.5, 0.5);}
+     }
+     
+     
+     
+        
+     
+     .offer-text{
+        background-color: burlywood;
+        border-radius: 20px;
+        width:100%;
+        font-size: large;
+        padding: 7px;
+     }
+    .goals{
+        font-size: large;
+        background-color: burlywood;
+        border-radius: 20px;
+    }
+    .contact-form {
+       
+        max-width: 400px;
+        margin: 0 auto;
+        }
+        input, textarea, button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        }
+        .cntbtn{
+            background-color: burlywood;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 13px;
+        }
